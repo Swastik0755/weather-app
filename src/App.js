@@ -4,7 +4,7 @@ import "./App.css";
 
 function App() {
   return (
-    <React.Fragment>
+    <>
       <div className="container">
         <CurrentLocation />
       </div>
@@ -17,7 +17,7 @@ function App() {
           Swastik Sharma
         </a>{" "}
       </div>
-    </React.Fragment>
+    </>
   );
 }
 
